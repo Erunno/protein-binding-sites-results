@@ -1,0 +1,50 @@
+{
+  "ligand": "DNA",
+  "embedder": "ESM",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=1280, out_features=100, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=100, out_features=20, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=20, out_features=1, bias=True)\n  (5): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 50,
+  "seed": 42,
+  "learning_rate": 0.001,
+  "hidden_layers": [
+    100,
+    20
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 96.24329376220703,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 10,
+      "acc": 95.13335418701172,
+      "mcc": 0.23685161402185184
+    },
+    {
+      "epochs": 20,
+      "acc": 93.9827651977539,
+      "mcc": 0.2363727152304453
+    },
+    {
+      "epochs": 30,
+      "acc": 94.36087036132812,
+      "mcc": 0.23019267248788697
+    },
+    {
+      "epochs": 40,
+      "acc": 95.94242858886719,
+      "mcc": 0.17146027746160517
+    },
+    {
+      "epochs": 50,
+      "acc": 94.43405151367188,
+      "mcc": 0.2409673886391248
+    }
+  ],
+  "final_stats": {
+    "epochs": 50,
+    "acc": 94.43405151367188,
+    "mcc": 0.2409673886391248
+  }
+}

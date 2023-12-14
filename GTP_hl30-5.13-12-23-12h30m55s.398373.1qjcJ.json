@@ -1,0 +1,35 @@
+{
+  "ligand": "GTP",
+  "embedder": "BERT",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=1024, out_features=30, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=30, out_features=5, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=5, out_features=1, bias=True)\n  (5): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 20,
+  "seed": 42,
+  "learning_rate": 0.01,
+  "hidden_layers": [
+    30,
+    5
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 95.45222473144531,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 10,
+      "acc": 96.21869659423828,
+      "mcc": 0.4524602578627526
+    },
+    {
+      "epochs": 20,
+      "acc": 95.8099136352539,
+      "mcc": 0.42290827047787904
+    }
+  ],
+  "final_stats": {
+    "epochs": 20,
+    "acc": 95.8099136352539,
+    "mcc": 0.42290827047787904
+  }
+}

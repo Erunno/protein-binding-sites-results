@@ -1,0 +1,35 @@
+{
+  "ligand": "DNA",
+  "embedder": "BERT",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=1024, out_features=100, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=100, out_features=20, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=20, out_features=1, bias=True)\n  (5): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 20,
+  "seed": 42,
+  "learning_rate": 0.001,
+  "hidden_layers": [
+    100,
+    20
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 96.4789810180664,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 10,
+      "acc": 95.38288116455078,
+      "mcc": 0.2222511179244256
+    },
+    {
+      "epochs": 20,
+      "acc": 93.07057189941406,
+      "mcc": 0.20027217427639654
+    }
+  ],
+  "final_stats": {
+    "epochs": 20,
+    "acc": 93.07057189941406,
+    "mcc": 0.20027217427639654
+  }
+}

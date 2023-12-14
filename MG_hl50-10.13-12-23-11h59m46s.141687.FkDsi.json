@@ -1,0 +1,35 @@
+{
+  "ligand": "MG",
+  "embedder": "BERT",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=1024, out_features=50, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=50, out_features=10, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=10, out_features=1, bias=True)\n  (5): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 20,
+  "seed": 42,
+  "learning_rate": 0.01,
+  "hidden_layers": [
+    50,
+    10
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 99.10575866699219,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 10,
+      "acc": 98.92210388183594,
+      "mcc": 0.2111067972538527
+    },
+    {
+      "epochs": 20,
+      "acc": 98.92210388183594,
+      "mcc": 0.20769493820221158
+    }
+  ],
+  "final_stats": {
+    "epochs": 20,
+    "acc": 98.92210388183594,
+    "mcc": 0.20769493820221158
+  }
+}

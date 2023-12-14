@@ -1,0 +1,51 @@
+{
+  "ligand": "DNA",
+  "embedder": "T5",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=1024, out_features=50, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=50, out_features=10, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=10, out_features=5, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=5, out_features=1, bias=True)\n  (7): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 50,
+  "seed": 42,
+  "learning_rate": 0.01,
+  "hidden_layers": [
+    50,
+    10,
+    5
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 96.4789810180664,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 10,
+      "acc": 94.8160629272461,
+      "mcc": 0.25279146503528555
+    },
+    {
+      "epochs": 20,
+      "acc": 95.19894409179688,
+      "mcc": 0.15844834960057658
+    },
+    {
+      "epochs": 30,
+      "acc": 94.7259750366211,
+      "mcc": 0.21365769967872397
+    },
+    {
+      "epochs": 40,
+      "acc": 94.66967010498047,
+      "mcc": 0.22343634488554084
+    },
+    {
+      "epochs": 50,
+      "acc": 94.44068908691406,
+      "mcc": 0.21068250949018683
+    }
+  ],
+  "final_stats": {
+    "epochs": 50,
+    "acc": 94.44068908691406,
+    "mcc": 0.21068250949018683
+  }
+}

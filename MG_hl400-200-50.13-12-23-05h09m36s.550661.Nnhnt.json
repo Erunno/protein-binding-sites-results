@@ -1,0 +1,51 @@
+{
+  "ligand": "MG",
+  "embedder": "ESM",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=1280, out_features=400, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=400, out_features=200, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=200, out_features=50, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=50, out_features=1, bias=True)\n  (7): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 50,
+  "seed": 42,
+  "learning_rate": 0.001,
+  "hidden_layers": [
+    400,
+    200,
+    50
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 99.10099792480469,
+      "mcc": 0.1678420843767574
+    },
+    {
+      "epochs": 10,
+      "acc": 99.08590698242188,
+      "mcc": 0.2636673864346728
+    },
+    {
+      "epochs": 20,
+      "acc": 99.00397491455078,
+      "mcc": 0.2786941882134976
+    },
+    {
+      "epochs": 30,
+      "acc": 99.00289916992188,
+      "mcc": 0.2743184130450384
+    },
+    {
+      "epochs": 40,
+      "acc": 98.94900512695312,
+      "mcc": 0.280622996433981
+    },
+    {
+      "epochs": 50,
+      "acc": 99.01799011230469,
+      "mcc": 0.292270614534718
+    }
+  ],
+  "final_stats": {
+    "epochs": 50,
+    "acc": 99.01799011230469,
+    "mcc": 0.292270614534718
+  }
+}

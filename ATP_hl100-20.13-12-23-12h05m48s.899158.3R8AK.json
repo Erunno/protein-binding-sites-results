@@ -1,0 +1,35 @@
+{
+  "ligand": "ATP",
+  "embedder": "ESM",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=1280, out_features=100, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=100, out_features=20, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=20, out_features=1, bias=True)\n  (5): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 20,
+  "seed": 42,
+  "learning_rate": 0.001,
+  "hidden_layers": [
+    100,
+    20
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 96.37004852294922,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 10,
+      "acc": 96.56349182128906,
+      "mcc": 0.44300744856345936
+    },
+    {
+      "epochs": 20,
+      "acc": 96.80245208740234,
+      "mcc": 0.4432929457539018
+    }
+  ],
+  "final_stats": {
+    "epochs": 20,
+    "acc": 96.80245208740234,
+    "mcc": 0.4432929457539018
+  }
+}
