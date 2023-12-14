@@ -1,0 +1,25 @@
+{
+  "ligand": "ADP",
+  "embedder": "BB",
+  "result_tag": "reference",
+  "model_to_string": "?",
+  "batch_size": "?",
+  "total_epochs": "?",
+  "seed": "?",
+  "learning_rate": "?",
+  "hidden_layers": [
+    "?"
+  ],
+  "all_stats": [
+    {
+      "epochs": "?",
+      "acc": 79.1,
+      "mcc": 0.242
+    }
+  ],
+  "final_stats": {
+    "epochs": "?",
+    "acc": 79.1,
+    "mcc": 0.242
+  }
+}

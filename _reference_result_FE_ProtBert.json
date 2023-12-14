@@ -1,0 +1,25 @@
+{
+  "ligand": "FE",
+  "embedder": "ProtBert",
+  "result_tag": "reference",
+  "model_to_string": "?",
+  "batch_size": "?",
+  "total_epochs": "?",
+  "seed": "?",
+  "learning_rate": "?",
+  "hidden_layers": [
+    "?"
+  ],
+  "all_stats": [
+    {
+      "epochs": "?",
+      "acc": 95.1,
+      "mcc": 0.437
+    }
+  ],
+  "final_stats": {
+    "epochs": "?",
+    "acc": 95.1,
+    "mcc": 0.437
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "ligand": "FE",
+  "embedder": "BB",
+  "result_tag": "reference",
+  "model_to_string": "?",
+  "batch_size": "?",
+  "total_epochs": "?",
+  "seed": "?",
+  "learning_rate": "?",
+  "hidden_layers": [
+    "?"
+  ],
+  "all_stats": [
+    {
+      "epochs": "?",
+      "acc": 92.4,
+      "mcc": 0.337
+    }
+  ],
+  "final_stats": {
+    "epochs": "?",
+    "acc": 92.4,
+    "mcc": 0.337
+  }
+}

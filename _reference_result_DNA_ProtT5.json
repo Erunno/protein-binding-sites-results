@@ -1,0 +1,25 @@
+{
+  "ligand": "DNA",
+  "embedder": "ProtT5",
+  "result_tag": "reference",
+  "model_to_string": "?",
+  "batch_size": "?",
+  "total_epochs": "?",
+  "seed": "?",
+  "learning_rate": "?",
+  "hidden_layers": [
+    "?"
+  ],
+  "all_stats": [
+    {
+      "epochs": "?",
+      "acc": 91.1,
+      "mcc": 0.548
+    }
+  ],
+  "final_stats": {
+    "epochs": "?",
+    "acc": 91.1,
+    "mcc": 0.548
+  }
+}

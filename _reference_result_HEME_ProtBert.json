@@ -1,0 +1,25 @@
+{
+  "ligand": "HEME",
+  "embedder": "ProtBert",
+  "result_tag": "reference",
+  "model_to_string": "?",
+  "batch_size": "?",
+  "total_epochs": "?",
+  "seed": "?",
+  "learning_rate": "?",
+  "hidden_layers": [
+    "?"
+  ],
+  "all_stats": [
+    {
+      "epochs": "?",
+      "acc": 87.7,
+      "mcc": 0.491
+    }
+  ],
+  "final_stats": {
+    "epochs": "?",
+    "acc": 87.7,
+    "mcc": 0.491
+  }
+}

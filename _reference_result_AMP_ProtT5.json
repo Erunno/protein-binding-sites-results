@@ -1,0 +1,25 @@
+{
+  "ligand": "AMP",
+  "embedder": "ProtT5",
+  "result_tag": "reference",
+  "model_to_string": "?",
+  "batch_size": "?",
+  "total_epochs": "?",
+  "seed": "?",
+  "learning_rate": "?",
+  "hidden_layers": [
+    "?"
+  ],
+  "all_stats": [
+    {
+      "epochs": "?",
+      "acc": 94.7,
+      "mcc": 0.453
+    }
+  ],
+  "final_stats": {
+    "epochs": "?",
+    "acc": 94.7,
+    "mcc": 0.453
+  }
+}

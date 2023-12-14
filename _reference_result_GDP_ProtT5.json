@@ -1,0 +1,25 @@
+{
+  "ligand": "GDP",
+  "embedder": "ProtT5",
+  "result_tag": "reference",
+  "model_to_string": "?",
+  "batch_size": "?",
+  "total_epochs": "?",
+  "seed": "?",
+  "learning_rate": "?",
+  "hidden_layers": [
+    "?"
+  ],
+  "all_stats": [
+    {
+      "epochs": "?",
+      "acc": 96.2,
+      "mcc": 0.626
+    }
+  ],
+  "final_stats": {
+    "epochs": "?",
+    "acc": 96.2,
+    "mcc": 0.626
+  }
+}

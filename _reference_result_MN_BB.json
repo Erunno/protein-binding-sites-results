@@ -1,0 +1,25 @@
+{
+  "ligand": "MN",
+  "embedder": "BB",
+  "result_tag": "reference",
+  "model_to_string": "?",
+  "batch_size": "?",
+  "total_epochs": "?",
+  "seed": "?",
+  "learning_rate": "?",
+  "hidden_layers": [
+    "?"
+  ],
+  "all_stats": [
+    {
+      "epochs": "?",
+      "acc": 86.3,
+      "mcc": 0.223
+    }
+  ],
+  "final_stats": {
+    "epochs": "?",
+    "acc": 86.3,
+    "mcc": 0.223
+  }
+}
