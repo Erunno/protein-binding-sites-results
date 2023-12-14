@@ -1,6 +1,7 @@
 {
   "ligand": "DNA",
   "embedder": "ESM",
+  "result_tag": "basic",
   "model_to_string": "Sequential(\n  (0): Linear(in_features=1280, out_features=50, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=50, out_features=10, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=10, out_features=5, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=5, out_features=1, bias=True)\n  (7): Sigmoid()\n)",
   "batch_size": 1000,
   "total_epochs": 50,

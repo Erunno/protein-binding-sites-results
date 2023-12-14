@@ -1,6 +1,7 @@
 {
   "ligand": "ATP",
   "embedder": "T5",
+  "result_tag": "basic",
   "model_to_string": "Sequential(\n  (0): Linear(in_features=1024, out_features=400, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=400, out_features=200, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=200, out_features=50, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=50, out_features=1, bias=True)\n  (7): Sigmoid()\n)",
   "batch_size": 1000,
   "total_epochs": 50,

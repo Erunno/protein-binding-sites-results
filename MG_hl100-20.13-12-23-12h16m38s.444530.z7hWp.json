@@ -1,6 +1,7 @@
 {
   "ligand": "MG",
   "embedder": "ESM",
+  "result_tag": "basic",
   "model_to_string": "Sequential(\n  (0): Linear(in_features=1280, out_features=100, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=100, out_features=20, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=20, out_features=1, bias=True)\n  (5): Sigmoid()\n)",
   "batch_size": 1000,
   "total_epochs": 20,
