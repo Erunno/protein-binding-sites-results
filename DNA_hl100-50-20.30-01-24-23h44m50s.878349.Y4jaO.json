@@ -1,0 +1,98 @@
+{
+  "result_tag": "protrusion_v1",
+  "ligand": "DNA",
+  "embedder": "BERT",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=1043, out_features=100, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=100, out_features=50, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=50, out_features=20, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=20, out_features=1, bias=True)\n  (7): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 100,
+  "seed": 42,
+  "learning_rate": 0.001,
+  "hidden_layers": [
+    100,
+    50,
+    20
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 96.46835327148438,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 10,
+      "acc": 96.43414306640625,
+      "mcc": 0.24668467043552547
+    },
+    {
+      "epochs": 20,
+      "acc": 96.43793487548828,
+      "mcc": 0.20854702909340717
+    },
+    {
+      "epochs": 30,
+      "acc": 96.04637908935547,
+      "mcc": 0.2095271964311497
+    },
+    {
+      "epochs": 40,
+      "acc": 95.96654510498047,
+      "mcc": 0.2213658310687492
+    },
+    {
+      "epochs": 50,
+      "acc": 96.00076293945312,
+      "mcc": 0.20985068217951755
+    },
+    {
+      "epochs": 60,
+      "acc": 95.34308624267578,
+      "mcc": 0.20529759618418292
+    },
+    {
+      "epochs": 70,
+      "acc": 94.66261291503906,
+      "mcc": 0.20683325665708893
+    },
+    {
+      "epochs": 80,
+      "acc": 93.7578353881836,
+      "mcc": 0.16924892668833477
+    },
+    {
+      "epochs": 90,
+      "acc": 94.54856872558594,
+      "mcc": 0.17785724632765187
+    },
+    {
+      "epochs": 100,
+      "acc": 94.4725341796875,
+      "mcc": 0.20855969702703628
+    }
+  ],
+  "final_stats": {
+    "epochs": 100,
+    "acc": 94.4725341796875,
+    "mcc": 0.20855969702703628
+  },
+  "protrusion_radii": [
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    7.5,
+    8.0,
+    8.5,
+    9.0,
+    9.5,
+    10.0
+  ]
+}

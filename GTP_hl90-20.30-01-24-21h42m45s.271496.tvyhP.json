@@ -1,0 +1,97 @@
+{
+  "result_tag": "protr_v2_in_last_lay",
+  "ligand": "GTP",
+  "embedder": "BERT",
+  "model_to_string": "BypassedInputsModel(\n  (layers): ModuleList(\n    (0): Linear(in_features=1024, out_features=90, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=90, out_features=39, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=58, out_features=1, bias=True)\n    (5): Sigmoid()\n  )\n)",
+  "batch_size": 1000,
+  "total_epochs": 100,
+  "seed": 42,
+  "learning_rate": 0.001,
+  "hidden_layers": [
+    90,
+    20
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 95.45222473144531,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 10,
+      "acc": 95.45222473144531,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 20,
+      "acc": 95.70771789550781,
+      "mcc": 0.3258740164770591
+    },
+    {
+      "epochs": 30,
+      "acc": 95.6566162109375,
+      "mcc": 0.35692220215802983
+    },
+    {
+      "epochs": 40,
+      "acc": 95.401123046875,
+      "mcc": 0.33420200744797696
+    },
+    {
+      "epochs": 50,
+      "acc": 95.19673156738281,
+      "mcc": 0.3631348858495952
+    },
+    {
+      "epochs": 60,
+      "acc": 95.2478256225586,
+      "mcc": 0.34500488978626487
+    },
+    {
+      "epochs": 70,
+      "acc": 95.35002899169922,
+      "mcc": 0.35971521636502035
+    },
+    {
+      "epochs": 80,
+      "acc": 95.2989273071289,
+      "mcc": 0.3559764000085388
+    },
+    {
+      "epochs": 90,
+      "acc": 95.2478256225586,
+      "mcc": 0.35232949543544395
+    },
+    {
+      "epochs": 100,
+      "acc": 95.2478256225586,
+      "mcc": 0.35232949543544395
+    }
+  ],
+  "final_stats": {
+    "epochs": 100,
+    "acc": 95.2478256225586,
+    "mcc": 0.35232949543544395
+  },
+  "protrusion_radii": [
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    7.5,
+    8.0,
+    8.5,
+    9.0,
+    9.5,
+    10.0
+  ]
+}

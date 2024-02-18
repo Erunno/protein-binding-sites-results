@@ -1,0 +1,98 @@
+{
+  "result_tag": "protrusion_v1",
+  "ligand": "DNA",
+  "embedder": "T5",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=1043, out_features=100, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=100, out_features=50, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=50, out_features=20, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=20, out_features=1, bias=True)\n  (7): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 100,
+  "seed": 42,
+  "learning_rate": 0.001,
+  "hidden_layers": [
+    100,
+    50,
+    20
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 96.46455383300781,
+      "mcc": -0.0011797374777510112
+    },
+    {
+      "epochs": 10,
+      "acc": 95.99315643310547,
+      "mcc": 0.23813805563120988
+    },
+    {
+      "epochs": 20,
+      "acc": 95.2784652709961,
+      "mcc": 0.2577641108858386
+    },
+    {
+      "epochs": 30,
+      "acc": 94.8678970336914,
+      "mcc": 0.21023549988639542
+    },
+    {
+      "epochs": 40,
+      "acc": 93.45372009277344,
+      "mcc": 0.20204455183263512
+    },
+    {
+      "epochs": 50,
+      "acc": 93.7464370727539,
+      "mcc": 0.24092558776738707
+    },
+    {
+      "epochs": 60,
+      "acc": 93.7730484008789,
+      "mcc": 0.20615162571477955
+    },
+    {
+      "epochs": 70,
+      "acc": 92.99752807617188,
+      "mcc": 0.23572072299162952
+    },
+    {
+      "epochs": 80,
+      "acc": 93.36627960205078,
+      "mcc": 0.20688653735595325
+    },
+    {
+      "epochs": 90,
+      "acc": 93.16099548339844,
+      "mcc": 0.2035038055048337
+    },
+    {
+      "epochs": 100,
+      "acc": 92.95191192626953,
+      "mcc": 0.22847979148353553
+    }
+  ],
+  "final_stats": {
+    "epochs": 100,
+    "acc": 92.95191192626953,
+    "mcc": 0.22847979148353553
+  },
+  "protrusion_radii": [
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    7.5,
+    8.0,
+    8.5,
+    9.0,
+    9.5,
+    10.0
+  ]
+}

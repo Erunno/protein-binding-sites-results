@@ -1,0 +1,99 @@
+{
+  "result_tag": "protrusion_v1",
+  "ligand": "ZN",
+  "embedder": "BERT",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=1043, out_features=900, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=900, out_features=500, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=500, out_features=100, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=100, out_features=30, bias=True)\n  (7): ReLU()\n  (8): Linear(in_features=30, out_features=1, bias=True)\n  (9): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 100,
+  "seed": 42,
+  "learning_rate": 0.01,
+  "hidden_layers": [
+    900,
+    500,
+    100,
+    30
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 99.0346450805664,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 10,
+      "acc": 99.0506362915039,
+      "mcc": 0.17284540066165432
+    },
+    {
+      "epochs": 20,
+      "acc": 99.0506362915039,
+      "mcc": 0.31356271648934436
+    },
+    {
+      "epochs": 30,
+      "acc": 99.0768051147461,
+      "mcc": 0.3114350059965342
+    },
+    {
+      "epochs": 40,
+      "acc": 99.05936431884766,
+      "mcc": 0.19710872837761967
+    },
+    {
+      "epochs": 50,
+      "acc": 99.0346450805664,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 60,
+      "acc": 99.0346450805664,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 70,
+      "acc": 98.94014739990234,
+      "mcc": 0.33050324646360313
+    },
+    {
+      "epochs": 80,
+      "acc": 98.8834457397461,
+      "mcc": 0.34331021981522275
+    },
+    {
+      "epochs": 90,
+      "acc": 98.9503173828125,
+      "mcc": 0.36860498569185796
+    },
+    {
+      "epochs": 100,
+      "acc": 98.84564208984375,
+      "mcc": 0.36842512238003183
+    }
+  ],
+  "final_stats": {
+    "epochs": 100,
+    "acc": 98.84564208984375,
+    "mcc": 0.36842512238003183
+  },
+  "protrusion_radii": [
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    7.5,
+    8.0,
+    8.5,
+    9.0,
+    9.5,
+    10.0
+  ]
+}

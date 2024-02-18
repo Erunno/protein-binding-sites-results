@@ -1,0 +1,98 @@
+{
+  "result_tag": "protrusion_v1",
+  "ligand": "MG",
+  "embedder": "T5",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=1043, out_features=100, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=100, out_features=50, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=50, out_features=20, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=20, out_features=1, bias=True)\n  (7): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 100,
+  "seed": 42,
+  "learning_rate": 0.01,
+  "hidden_layers": [
+    100,
+    50,
+    20
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 99.14828491210938,
+      "mcc": 0.032017822106535705
+    },
+    {
+      "epochs": 10,
+      "acc": 99.04337310791016,
+      "mcc": 0.3082167895104414
+    },
+    {
+      "epochs": 20,
+      "acc": 98.91138458251953,
+      "mcc": 0.303807972210561
+    },
+    {
+      "epochs": 30,
+      "acc": 98.87867736816406,
+      "mcc": 0.2773196999157249
+    },
+    {
+      "epochs": 40,
+      "acc": 98.79745483398438,
+      "mcc": 0.26097906560727163
+    },
+    {
+      "epochs": 50,
+      "acc": 98.7940673828125,
+      "mcc": 0.2603907184336535
+    },
+    {
+      "epochs": 60,
+      "acc": 98.7839126586914,
+      "mcc": 0.25566010434416964
+    },
+    {
+      "epochs": 70,
+      "acc": 98.7015609741211,
+      "mcc": 0.26573177995981595
+    },
+    {
+      "epochs": 80,
+      "acc": 98.68350982666016,
+      "mcc": 0.2429961172250501
+    },
+    {
+      "epochs": 90,
+      "acc": 98.61808776855469,
+      "mcc": 0.18338233547512905
+    },
+    {
+      "epochs": 100,
+      "acc": 98.78729248046875,
+      "mcc": 0.25623599813691905
+    }
+  ],
+  "final_stats": {
+    "epochs": 100,
+    "acc": 98.78729248046875,
+    "mcc": 0.25623599813691905
+  },
+  "protrusion_radii": [
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    7.5,
+    8.0,
+    8.5,
+    9.0,
+    9.5,
+    10.0
+  ]
+}

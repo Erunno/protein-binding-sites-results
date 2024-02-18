@@ -1,0 +1,99 @@
+{
+  "result_tag": "protr_v2_in_last_lay",
+  "ligand": "DNA",
+  "embedder": "T5",
+  "model_to_string": "BypassedInputsModel(\n  (layers): ModuleList(\n    (0): Linear(in_features=1024, out_features=900, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=900, out_features=500, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=500, out_features=100, bias=True)\n    (5): ReLU()\n    (6): Linear(in_features=100, out_features=49, bias=True)\n    (7): ReLU()\n    (8): Linear(in_features=68, out_features=1, bias=True)\n    (9): Sigmoid()\n  )\n)",
+  "batch_size": 1000,
+  "total_epochs": 100,
+  "seed": 42,
+  "learning_rate": 0.01,
+  "hidden_layers": [
+    900,
+    500,
+    100,
+    30
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 96.4531478881836,
+      "mcc": 0.10040683227563996
+    },
+    {
+      "epochs": 10,
+      "acc": 94.46112823486328,
+      "mcc": 0.2659288769254211
+    },
+    {
+      "epochs": 20,
+      "acc": 93.97833251953125,
+      "mcc": 0.299988660465677
+    },
+    {
+      "epochs": 30,
+      "acc": 95.40391540527344,
+      "mcc": 0.27873273603826104
+    },
+    {
+      "epochs": 40,
+      "acc": 95.60540008544922,
+      "mcc": 0.21078898413791325
+    },
+    {
+      "epochs": 50,
+      "acc": 95.41912078857422,
+      "mcc": 0.20566343412660115
+    },
+    {
+      "epochs": 60,
+      "acc": 95.53697204589844,
+      "mcc": 0.24557559672363172
+    },
+    {
+      "epochs": 70,
+      "acc": 95.19102478027344,
+      "mcc": 0.21556354529733174
+    },
+    {
+      "epochs": 80,
+      "acc": 95.55217742919922,
+      "mcc": 0.2649321831138518
+    },
+    {
+      "epochs": 90,
+      "acc": 95.9741439819336,
+      "mcc": 0.24320210721535515
+    },
+    {
+      "epochs": 100,
+      "acc": 95.51416015625,
+      "mcc": 0.25272593330584703
+    }
+  ],
+  "final_stats": {
+    "epochs": 100,
+    "acc": 95.51416015625,
+    "mcc": 0.25272593330584703
+  },
+  "protrusion_radii": [
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    7.5,
+    8.0,
+    8.5,
+    9.0,
+    9.5,
+    10.0
+  ]
+}
