@@ -1,0 +1,31 @@
+{
+  "result_tag": "test",
+  "ligand": "DNA",
+  "embedder": "ESM",
+  "model_to_string": "BypassedInputsModel(\n  (layers): ModuleList(\n    (0): Linear(in_features=2560, out_features=1000, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=1000, out_features=33, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=34, out_features=1, bias=True)\n    (5): Sigmoid()\n  )\n)",
+  "batch_size": 1024,
+  "total_epochs": 5,
+  "seed": 42,
+  "learning_rate": 0.01,
+  "hidden_layers": [
+    1000,
+    32
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 99.93608541995638,
+      "mcc": 0.9912940489349487
+    },
+    {
+      "epochs": 3,
+      "acc": 99.87593052109182,
+      "mcc": 0.9830404757297099
+    }
+  ],
+  "final_stats": {
+    "epochs": 5,
+    "acc": 99.8646514775547,
+    "mcc": 0.9814863584273238
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "result_tag": "basic_v2",
+  "ligand": "MN",
+  "embedder": "BERT",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=1024, out_features=128, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=128, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=128, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=128, out_features=32, bias=True)\n  (7): ReLU()\n  (8): Linear(in_features=32, out_features=1, bias=True)\n  (9): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 100,
+  "seed": 42,
+  "learning_rate": 0.0001,
+  "hidden_layers": [
+    128,
+    128,
+    128,
+    32
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 98.97264099121094,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 10,
+      "acc": 98.97264099121094,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 20,
+      "acc": 98.86124420166016,
+      "mcc": 0.35440649669003077
+    },
+    {
+      "epochs": 30,
+      "acc": 98.89424896240234,
+      "mcc": 0.32339753359586565
+    },
+    {
+      "epochs": 40,
+      "acc": 98.86124420166016,
+      "mcc": 0.2988789822958889
+    },
+    {
+      "epochs": 50,
+      "acc": 98.68383026123047,
+      "mcc": 0.3357485907938787
+    },
+    {
+      "epochs": 60,
+      "acc": 98.77872467041016,
+      "mcc": 0.3240979347072321
+    },
+    {
+      "epochs": 70,
+      "acc": 98.84886932373047,
+      "mcc": 0.320118175792762
+    },
+    {
+      "epochs": 80,
+      "acc": 98.85711669921875,
+      "mcc": 0.3222289585952636
+    },
+    {
+      "epochs": 90,
+      "acc": 98.83648681640625,
+      "mcc": 0.3170240865920539
+    },
+    {
+      "epochs": 100,
+      "acc": 98.83235931396484,
+      "mcc": 0.3130244427389592
+    }
+  ],
+  "final_stats": {
+    "epochs": 100,
+    "acc": 98.83235931396484,
+    "mcc": 0.3130244427389592
+  }
+}

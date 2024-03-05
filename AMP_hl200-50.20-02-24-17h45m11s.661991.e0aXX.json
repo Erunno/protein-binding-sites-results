@@ -1,0 +1,26 @@
+{
+  "result_tag": "not_specified",
+  "ligand": "AMP",
+  "embedder": "BERT",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=1024, out_features=200, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=200, out_features=50, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=50, out_features=1, bias=True)\n  (5): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 15,
+  "seed": 42,
+  "learning_rate": 0.01,
+  "hidden_layers": [
+    200,
+    50
+  ],
+  "all_stats": [
+    {
+      "epochs": 15,
+      "acc": 93.6996841430664,
+      "mcc": 0.20192238135386648
+    }
+  ],
+  "final_stats": {
+    "epochs": 15,
+    "acc": 93.6996841430664,
+    "mcc": 0.20192238135386648
+  }
+}
