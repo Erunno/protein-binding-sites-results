@@ -1,0 +1,84 @@
+{
+  "result_tag": "neighboring_emb_5",
+  "ligand": "HEME",
+  "embedder": "ESM",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=12800, out_features=2048, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=2048, out_features=512, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=512, out_features=512, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=512, out_features=256, bias=True)\n  (7): ReLU()\n  (8): Linear(in_features=256, out_features=128, bias=True)\n  (9): ReLU()\n  (10): Linear(in_features=128, out_features=1, bias=True)\n  (11): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 120,
+  "seed": 42,
+  "learning_rate": 0.001,
+  "hidden_layers": [
+    2048,
+    512,
+    512,
+    256,
+    128
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 96.2483297358413,
+      "mcc": 0.5916499047110583
+    },
+    {
+      "epochs": 10,
+      "acc": 96.19693699249666,
+      "mcc": 0.648897192395234
+    },
+    {
+      "epochs": 20,
+      "acc": 96.16610134648987,
+      "mcc": 0.6358830846731578
+    },
+    {
+      "epochs": 30,
+      "acc": 96.12498715181417,
+      "mcc": 0.6348943052909847
+    },
+    {
+      "epochs": 40,
+      "acc": 96.19693699249666,
+      "mcc": 0.6413959442790642
+    },
+    {
+      "epochs": 50,
+      "acc": 96.11470860314523,
+      "mcc": 0.6318693538997556
+    },
+    {
+      "epochs": 60,
+      "acc": 96.27916538184809,
+      "mcc": 0.650282644576364
+    },
+    {
+      "epochs": 70,
+      "acc": 96.07359440846952,
+      "mcc": 0.6357130194268356
+    },
+    {
+      "epochs": 80,
+      "acc": 96.14554424915201,
+      "mcc": 0.6304533996658593
+    },
+    {
+      "epochs": 90,
+      "acc": 96.10443005447631,
+      "mcc": 0.6317761778451738
+    },
+    {
+      "epochs": 100,
+      "acc": 95.77551649707061,
+      "mcc": 0.6122483685102599
+    },
+    {
+      "epochs": 110,
+      "acc": 96.07359440846952,
+      "mcc": 0.6250040738975294
+    }
+  ],
+  "final_stats": {
+    "epochs": 120,
+    "acc": 96.02220166512488,
+    "mcc": 0.6221832851722044
+  }
+}

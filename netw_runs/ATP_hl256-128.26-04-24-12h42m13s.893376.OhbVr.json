@@ -1,0 +1,53 @@
+{
+  "result_tag": "two_prot_v2_c",
+  "ligand": "ATP",
+  "embedder": "ESM",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=2562, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=1, bias=True)\n  (5): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 10,
+  "seed": 42,
+  "learning_rate": 0.0001,
+  "hidden_layers": [
+    256,
+    128
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 95.39512971932851,
+      "mcc": 0.41550222398999914,
+      "threshold": 0.30000000000000004,
+      "test_data_stats": {
+        "epochs": 0,
+        "acc": 95.32569709591577,
+        "mcc": 0.40337762898780866,
+        "threshold": 0.30000000000000004
+      }
+    }
+  ],
+  "final_stats": {
+    "epochs": 10,
+    "acc": 97.16010881826024,
+    "mcc": 0.6303322574573231,
+    "threshold": 0.30000000000000004,
+    "test_data_stats": {
+      "epochs": 10,
+      "acc": 96.91657989124147,
+      "mcc": 0.5608946710202849,
+      "threshold": 0.30000000000000004
+    }
+  },
+  "losses": [
+    0.23445187509059906,
+    0.10139781981706619,
+    0.10011730343103409,
+    0.1094886064529419,
+    0.054556913673877716,
+    0.06223168224096298,
+    0.09346359968185425,
+    0.06363468617200851,
+    0.043161675333976746,
+    0.03429001197218895
+  ],
+  "radius": 8.0
+}

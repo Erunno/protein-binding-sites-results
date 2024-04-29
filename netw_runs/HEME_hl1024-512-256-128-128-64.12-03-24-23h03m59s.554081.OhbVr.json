@@ -1,0 +1,85 @@
+{
+  "result_tag": "neighboring_emb_5",
+  "ligand": "HEME",
+  "embedder": "ESM",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=12800, out_features=1024, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=1024, out_features=512, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=512, out_features=256, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=256, out_features=128, bias=True)\n  (7): ReLU()\n  (8): Linear(in_features=128, out_features=128, bias=True)\n  (9): ReLU()\n  (10): Linear(in_features=128, out_features=64, bias=True)\n  (11): ReLU()\n  (12): Linear(in_features=64, out_features=1, bias=True)\n  (13): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 120,
+  "seed": 42,
+  "learning_rate": 0.0001,
+  "hidden_layers": [
+    1024,
+    512,
+    256,
+    128,
+    128,
+    64
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 94.21317709939356,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 10,
+      "acc": 96.22777263850344,
+      "mcc": 0.6361245055193919
+    },
+    {
+      "epochs": 20,
+      "acc": 96.14554424915201,
+      "mcc": 0.6345065780974698
+    },
+    {
+      "epochs": 30,
+      "acc": 96.14554424915201,
+      "mcc": 0.6426835182390979
+    },
+    {
+      "epochs": 40,
+      "acc": 95.9194161784356,
+      "mcc": 0.6373297884653031
+    },
+    {
+      "epochs": 50,
+      "acc": 96.00164456778703,
+      "mcc": 0.6262951374621601
+    },
+    {
+      "epochs": 60,
+      "acc": 96.09415150580737,
+      "mcc": 0.6489785222136033
+    },
+    {
+      "epochs": 70,
+      "acc": 95.97080892178025,
+      "mcc": 0.6317140503803704
+    },
+    {
+      "epochs": 80,
+      "acc": 95.97080892178025,
+      "mcc": 0.6409768171218866
+    },
+    {
+      "epochs": 90,
+      "acc": 95.85774488642204,
+      "mcc": 0.6191626387883902
+    },
+    {
+      "epochs": 100,
+      "acc": 95.8783019837599,
+      "mcc": 0.6267268046134797
+    },
+    {
+      "epochs": 110,
+      "acc": 95.81663069174633,
+      "mcc": 0.6301000055778234
+    }
+  ],
+  "final_stats": {
+    "epochs": 120,
+    "acc": 95.44660293966491,
+    "mcc": 0.6280946450911041
+  }
+}

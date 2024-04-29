@@ -1,0 +1,82 @@
+{
+  "result_tag": "neighboring_emb_5",
+  "ligand": "GDP",
+  "embedder": "ESM",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=12800, out_features=1024, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=1024, out_features=256, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=256, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n  (7): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 120,
+  "seed": 42,
+  "learning_rate": 0.0001,
+  "hidden_layers": [
+    1024,
+    256,
+    64
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 96.31915866483767,
+      "mcc": 0.4047150484064069
+    },
+    {
+      "epochs": 10,
+      "acc": 98.03383630544124,
+      "mcc": 0.748971508830988
+    },
+    {
+      "epochs": 20,
+      "acc": 98.01097393689986,
+      "mcc": 0.7481746056295941
+    },
+    {
+      "epochs": 30,
+      "acc": 97.98811156835848,
+      "mcc": 0.7456895829362357
+    },
+    {
+      "epochs": 40,
+      "acc": 97.96524919981711,
+      "mcc": 0.7441957477182854
+    },
+    {
+      "epochs": 50,
+      "acc": 97.96524919981711,
+      "mcc": 0.745182724041932
+    },
+    {
+      "epochs": 60,
+      "acc": 97.96524919981711,
+      "mcc": 0.7441957477182854
+    },
+    {
+      "epochs": 70,
+      "acc": 97.94238683127571,
+      "mcc": 0.7438228754681205
+    },
+    {
+      "epochs": 80,
+      "acc": 97.96524919981711,
+      "mcc": 0.7472083087619622
+    },
+    {
+      "epochs": 90,
+      "acc": 97.96524919981711,
+      "mcc": 0.7472083087619622
+    },
+    {
+      "epochs": 100,
+      "acc": 97.94238683127571,
+      "mcc": 0.7417811993978323
+    },
+    {
+      "epochs": 110,
+      "acc": 97.91952446273434,
+      "mcc": 0.7404252640693181
+    }
+  ],
+  "final_stats": {
+    "epochs": 120,
+    "acc": 97.91952446273434,
+    "mcc": 0.7425480327221224
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "2cv_results": [
+    {
+      "mcc": 0.0,
+      "confusion_matrix": {
+        "tp": 3690,
+        "fp": 43800,
+        "tn": 0,
+        "fn": 0
+      }
+    },
+    {
+      "mcc": -0.0016487317293287886,
+      "confusion_matrix": {
+        "tp": 3743,
+        "fp": 43737,
+        "tn": 8,
+        "fn": 1
+      }
+    },
+    {
+      "mcc": 0.0,
+      "confusion_matrix": {
+        "tp": 3768,
+        "fp": 43722,
+        "tn": 0,
+        "fn": 0
+      }
+    },
+    {
+      "mcc": 0.02045789595557884,
+      "confusion_matrix": {
+        "tp": 40,
+        "fp": 227,
+        "tn": 43596,
+        "fn": 3626
+      }
+    },
+    {
+      "mcc": 0.0,
+      "confusion_matrix": {
+        "tp": 3745,
+        "fp": 43745,
+        "tn": 0,
+        "fn": 0
+      }
+    },
+    {
+      "mcc": 0.0036665079312677715,
+      "confusion_matrix": {
+        "tp": 1407,
+        "fp": 16415,
+        "tn": 27385,
+        "fn": 2282
+      }
+    },
+    {
+      "mcc": -0.005520613963268229,
+      "confusion_matrix": {
+        "tp": 3697,
+        "fp": 43773,
+        "tn": 17,
+        "fn": 3
+      }
+    },
+    {
+      "mcc": 0.011231115931883133,
+      "confusion_matrix": {
+        "tp": 128,
+        "fp": 1199,
+        "tn": 42556,
+        "fn": 3606
+      }
+    },
+    {
+      "mcc": 0.009422548734001477,
+      "confusion_matrix": {
+        "tp": 2862,
+        "fp": 32759,
+        "tn": 10985,
+        "fn": 884
+      }
+    },
+    {
+      "mcc": 0.026897984354131446,
+      "confusion_matrix": {
+        "tp": 1247,
+        "fp": 12801,
+        "tn": 31000,
+        "fn": 2441
+      }
+    },
+    {
+      "mcc": 0.0,
+      "confusion_matrix": {
+        "tp": 3747,
+        "fp": 43743,
+        "tn": 0,
+        "fn": 0
+      }
+    },
+    {
+      "mcc": 0.0,
+      "confusion_matrix": {
+        "tp": 3687,
+        "fp": 43802,
+        "tn": 0,
+        "fn": 0
+      }
+    },
+    {
+      "mcc": -0.0013461571294951886,
+      "confusion_matrix": {
+        "tp": 0,
+        "fp": 1,
+        "tn": 43726,
+        "fn": 3763
+      }
+    },
+    {
+      "mcc": 0.016804243910504852,
+      "confusion_matrix": {
+        "tp": 103,
+        "fp": 844,
+        "tn": 42974,
+        "fn": 3568
+      }
+    },
+    {
+      "mcc": 0.0,
+      "confusion_matrix": {
+        "tp": 3698,
+        "fp": 43792,
+        "tn": 0,
+        "fn": 0
+      }
+    },
+    {
+      "mcc": 0.0,
+      "confusion_matrix": {
+        "tp": 3736,
+        "fp": 43753,
+        "tn": 0,
+        "fn": 0
+      }
+    },
+    {
+      "mcc": 0.0,
+      "confusion_matrix": {
+        "tp": 3673,
+        "fp": 43817,
+        "tn": 0,
+        "fn": 0
+      }
+    },
+    {
+      "mcc": 0.0081857646450763,
+      "confusion_matrix": {
+        "tp": 96,
+        "fp": 924,
+        "tn": 42804,
+        "fn": 3665
+      }
+    },
+    {
+      "mcc": 0.0,
+      "confusion_matrix": {
+        "tp": 3743,
+        "fp": 43747,
+        "tn": 0,
+        "fn": 0
+      }
+    },
+    {
+      "mcc": 0.0,
+      "confusion_matrix": {
+        "tp": 3691,
+        "fp": 43798,
+        "tn": 0,
+        "fn": 0
+      }
+    }
+  ],
+  "final_result": {
+    "mcc": 0.0,
+    "confusion_matrix": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 16225,
+      "fn": 973
+    }
+  },
+  "hyper_params": {
+    "batch_size": 1000,
+    "epochs": 0,
+    "layers": [
+      1024,
+      256,
+      64
+    ],
+    "learning_rate": 0.001,
+    "ligand": "DNA",
+    "mcc": 0.5929790017753523,
+    "radius": null,
+    "seed": 42,
+    "tag": "neighboring_emb_5_v2_c",
+    "test_mcc": 0.49228013835495593,
+    "threshold": 0.30000000000000004
+  }
+}

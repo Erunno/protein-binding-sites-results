@@ -1,0 +1,32 @@
+
+{
+  "ligand": "GDP",
+  "embedder": "p2rank",
+  "result_tag": "p2rank",
+  "model_to_string": "?",
+  "batch_size": "?",
+  "total_epochs": "?",
+  "seed": "?",
+  "learning_rate": "?",
+  "hidden_layers": [
+    "?"
+  ],
+  "all_stats": [
+    {
+      "epochs": "?",
+      "acc": 0.9675,
+      "mcc": 0.5308,
+      "test_data_stats": {
+        "epochs": "?",
+        "acc": 0.9675,
+        "mcc": 0.5308
+      }
+    }
+  ],
+  "final_stats": {
+    "epochs": "?",
+    "acc": 0.9675,
+    "mcc": 0.5308
+  }
+}
+    

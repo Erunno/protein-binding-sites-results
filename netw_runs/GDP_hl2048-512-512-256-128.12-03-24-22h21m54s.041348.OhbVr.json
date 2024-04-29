@@ -1,0 +1,84 @@
+{
+  "result_tag": "neighboring_emb_5",
+  "ligand": "GDP",
+  "embedder": "ESM",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=12800, out_features=2048, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=2048, out_features=512, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=512, out_features=512, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=512, out_features=256, bias=True)\n  (7): ReLU()\n  (8): Linear(in_features=256, out_features=128, bias=True)\n  (9): ReLU()\n  (10): Linear(in_features=128, out_features=1, bias=True)\n  (11): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 120,
+  "seed": 42,
+  "learning_rate": 0.001,
+  "hidden_layers": [
+    2048,
+    512,
+    512,
+    256,
+    128
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 95.56470050297212,
+      "mcc": 0.0
+    },
+    {
+      "epochs": 10,
+      "acc": 97.599451303155,
+      "mcc": 0.7245781086487564
+    },
+    {
+      "epochs": 20,
+      "acc": 97.64517604023777,
+      "mcc": 0.7270388865898239
+    },
+    {
+      "epochs": 30,
+      "acc": 97.41655235482396,
+      "mcc": 0.6856376720996393
+    },
+    {
+      "epochs": 40,
+      "acc": 97.39368998628258,
+      "mcc": 0.7078897700543759
+    },
+    {
+      "epochs": 50,
+      "acc": 97.30224051211705,
+      "mcc": 0.7024028518992784
+    },
+    {
+      "epochs": 60,
+      "acc": 97.27937814357568,
+      "mcc": 0.6990538768624799
+    },
+    {
+      "epochs": 70,
+      "acc": 97.27937814357568,
+      "mcc": 0.6990538768624799
+    },
+    {
+      "epochs": 80,
+      "acc": 97.30224051211705,
+      "mcc": 0.7007974098400073
+    },
+    {
+      "epochs": 90,
+      "acc": 97.34796524919982,
+      "mcc": 0.7043196720400986
+    },
+    {
+      "epochs": 100,
+      "acc": 97.34796524919982,
+      "mcc": 0.7043196720400986
+    },
+    {
+      "epochs": 110,
+      "acc": 97.34796524919982,
+      "mcc": 0.7043196720400986
+    }
+  ],
+  "final_stats": {
+    "epochs": 120,
+    "acc": 97.34796524919982,
+    "mcc": 0.7043196720400986
+  }
+}

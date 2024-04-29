@@ -1,0 +1,73 @@
+{
+  "result_tag": "test",
+  "ligand": "FE",
+  "embedder": "ESM",
+  "model_to_string": "Sequential(\n  (0): Linear(in_features=768, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=256, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=256, out_features=256, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=256, out_features=32, bias=True)\n  (7): ReLU()\n  (8): Linear(in_features=32, out_features=1, bias=True)\n  (9): Sigmoid()\n)",
+  "batch_size": 1000,
+  "total_epochs": 10,
+  "seed": 42,
+  "learning_rate": 0.01,
+  "hidden_layers": [
+    256,
+    256,
+    256,
+    32
+  ],
+  "all_stats": [
+    {
+      "epochs": 0,
+      "acc": 99.91190289741581,
+      "mcc": 0.9704317808321702,
+      "threshold": 0.55,
+      "test_data_stats": {
+        "epochs": 0,
+        "acc": 98.63221884498479,
+        "mcc": 0.6133248035359316,
+        "threshold": 0.55
+      }
+    }
+  ],
+  "final_stats": {
+    "epochs": 10,
+    "acc": 99.90211433046203,
+    "mcc": 0.9670565870445493,
+    "threshold": 0.4,
+    "test_data_stats": {
+      "epochs": 10,
+      "acc": 98.643074250977,
+      "mcc": 0.6149479616315336,
+      "threshold": 0.4
+    }
+  },
+  "losses": [
+    0.006462275981903076,
+    0.00600027572363615,
+    0.00827774778008461,
+    0.011735362000763416,
+    0.001997681800276041,
+    0.00043594479211606085,
+    0.010410761460661888,
+    0.007023009937256575,
+    0.007765220478177071,
+    0.0025886192452162504
+  ],
+  "params_of_compressor": {
+    "batch_size": 1000,
+    "epochs": 30,
+    "layers": [
+      512,
+      256,
+      256,
+      256
+    ],
+    "learning_rate": 0.001,
+    "ligand": "FE",
+    "mcc": 0.7172026968264942,
+    "radius": null,
+    "seed": 42,
+    "tag": "basic_v6",
+    "test_mcc": 0.6349007204006933,
+    "threshold": 0.35000000000000003
+  },
+  "neighbors": 3
+}

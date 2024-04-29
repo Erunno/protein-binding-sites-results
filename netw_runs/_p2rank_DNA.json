@@ -1,0 +1,32 @@
+
+{
+  "ligand": "DNA",
+  "embedder": "p2rank",
+  "result_tag": "p2rank",
+  "model_to_string": "?",
+  "batch_size": "?",
+  "total_epochs": "?",
+  "seed": "?",
+  "learning_rate": "?",
+  "hidden_layers": [
+    "?"
+  ],
+  "all_stats": [
+    {
+      "epochs": "?",
+      "acc": 0.9078,
+      "mcc": 0.2613,
+      "test_data_stats": {
+        "epochs": "?",
+        "acc": 0.9078,
+        "mcc": 0.2613
+      }
+    }
+  ],
+  "final_stats": {
+    "epochs": "?",
+    "acc": 0.9078,
+    "mcc": 0.2613
+  }
+}
+    
